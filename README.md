@@ -31,13 +31,13 @@ bin/mirror.sh --roxwav
 
 ```
 # remove sketches not present online
-bin/mirror.sh --user p5name --clean
+bin/mirror.sh --roxwav --clean
 
 # full update, download all projects
-bin/mirror.sh --user p5name --full
+bin/mirror.sh --roxwav --full
 
 # run in verbose mode to show details of steps for debugging
-bin/mirror.sh --user p5name --verbose
+bin/mirror.sh --roxwav --verbose
 
 ```
 
@@ -46,11 +46,11 @@ bin/mirror.sh --user p5name --verbose
 ```
 # Edit this line for your editor.p5js user name
 
-bin/mirror.sh --user p5name
+bin/mirror.sh --roxwav
 
-bin/mirror.sh --user p5name --clean
-bin/mirror.sh --user p5name --full
-bin/mirror.sh --user p5name --verbose
+bin/mirror.sh --roxwav --clean
+bin/mirror.sh --roxwav --full
+bin/mirror.sh --roxwav --verbose
 ```
 
 ## Why ?
